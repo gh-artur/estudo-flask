@@ -7,6 +7,9 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World!'
 
+@app.route('/salve')
+def salve():
+    return 'eai doidão'
 
 if __name__ == '__main__':
     app.run()
